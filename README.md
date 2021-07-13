@@ -1,9 +1,9 @@
 # Check Epitech Barcelona Wifi Status
-The idea was to have a script that check the status of the wifi on Epitech Barcelona.  
+The idea was to have a script that checks the status of the wifi in Epitech Barcelona.  
 The script will check if the security wifi is ON and then check if the main wifi is working.
 ## Cases
 If "Security_Wifi" is ON and "Main_Wifi" is working -> "Security_Wifi" has to be shut down.  
-If "Security_Wifi" is OFF and  "Main_Wifi" is not working -> "Security_Wifi" has to be start up and "Main_Wifi" has to be fixed.
+If "Security_Wifi" is OFF and  "Main_Wifi" is not working -> "Security_Wifi" has to be started up and "Main_Wifi" has to be fixed.
 
 ## Run Command
 
