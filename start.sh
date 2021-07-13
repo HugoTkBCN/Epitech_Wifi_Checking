@@ -12,7 +12,7 @@ function send_teams {
         MESSAGE="$MAIN_WIFI_SSID and $SECURITY_WIFI_SSID are OFF, you can start up $SECURITY_WIFI_SSID and you have to fix $MAIN_WIFI_SSID."
     fi
     # Convert formating.
-    JSON="{\"title\": \"${TITLE_MESSAGE}\", \"text\": \"${MESSAGE}\" }"
+    JSON="{\"title\": \"${TITLE}\", \"text\": \"${MESSAGE}\" }"
     # Post to Microsoft Teams.
     curl -H "Content-Type: application/json" -d "${JSON}" "${WEBHOOK_URL}" &>/dev/null
 
